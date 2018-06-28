@@ -9,17 +9,17 @@
 #
 
 # libtoolize - Prepare this package to use libtool
-libtoolize --force
+# libtoolize --force
 
 # Scan configure.ac and copy the necessary macros into aclocal.m4.
-aclocal
+# aclocal
 
 # autoheader - 
-autoheader
+# autoheader
 
 # Generate Makefile.in from Makefile.am (and copy necessary support
 # files, because of -ac).
-automake -ac --add-missing
+# automake -ac --add-missing
 
 # This step is not normally necessary, but documented here for your
 # convenience. The files listed below need to be present to stop
@@ -31,6 +31,8 @@ automake -ac --add-missing
 # touch NEWS README AUTHORS ChangeLog
 
 # Run autoconf (will create the 'configure'-script).
-autoconf
+# autoconf
 
-echo 'Ready to go (run configure)'
+autoreconf --install
+./configure
+make
