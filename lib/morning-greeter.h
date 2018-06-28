@@ -1,0 +1,1 @@
+void say_morning_greeting (void);

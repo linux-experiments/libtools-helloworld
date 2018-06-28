@@ -15,3 +15,4 @@
 *.m4
 /**/missing
 /**/.deps
+/**/build-aux
