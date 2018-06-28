@@ -22,3 +22,4 @@ rm -Rf autom4te.cache
 
 # Remove rest of the generated files.
 rm -rf Makefile.in aclocal.m4 configure depcomp install-sh missing config.log config.status COPYING INSTALL compile config.h.in m4 build-aux
+
