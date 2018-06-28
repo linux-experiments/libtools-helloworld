@@ -8,12 +8,18 @@
 # users do not require the autoconf/automake tools.
 #
 
+# libtoolize - Prepare this package to use libtool
+libtoolize --force
+
 # Scan configure.ac and copy the necessary macros into aclocal.m4.
 aclocal
 
+# autoheader - 
+autoheader
+
 # Generate Makefile.in from Makefile.am (and copy necessary support
 # files, because of -ac).
-automake -ac
+automake -ac --add-missing
 
 # This step is not normally necessary, but documented here for your
 # convenience. The files listed below need to be present to stop

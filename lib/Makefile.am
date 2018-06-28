@@ -1,5 +1,5 @@
 lib_LTLIBRARIES = libgreeter.la
-libgreeter_la_SOURCES = morning-greeting.c morning-greeting.h
-libgreeter_la_SOURCES += afternoon-greeting.c afternoon-greeting.h
-libgreeter_la_SOURCES += evening-greeting.c evening-greeting.h
-libgreeter_la_SOURCES += night-greeting.c night-greeting.h
+libgreeter_la_SOURCES = morning-greeter.c morning-greeter.h
+libgreeter_la_SOURCES += afternoon-greeter.c afternoon-greeter.h
+libgreeter_la_SOURCES += evening-greeter.c evening-greeter.h
+libgreeter_la_SOURCES += night-greeter.c night-greeter.h

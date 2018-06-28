@@ -16,3 +16,5 @@
 /**/missing
 /**/.deps
 /**/build-aux
+/**/m4
+config.h.in
