@@ -1,0 +1,12 @@
+Make sure you have GNU tools installed
+
+- gcc
+- autoconf
+- automake
+- libtools
+
+Run ./bootstrap.sh to generate the Makefile and run it
+
+Run ./src/helloapp to run the resultant binary
+
+Run ./cleanup.sh to cleanup the generated files
