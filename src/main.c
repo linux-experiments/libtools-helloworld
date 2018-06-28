@@ -1,7 +1,4 @@
-#include "morning-greeter.h"
-#include "afternoon-greeter.h"
-#include "evening-greeter.h"
-#include "night-greeter.h"
+#include "greeter.h"
 
 int main (void)
 {

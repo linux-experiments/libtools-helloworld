@@ -1,1 +1,0 @@
-void say_evening_greeting (void);
