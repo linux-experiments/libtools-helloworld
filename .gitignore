@@ -18,3 +18,10 @@
 /**/build-aux
 /**/m4
 config.h.in
+/src/.libs
+/lib/.libs
+*.lo
+*.la
+stamp-h1
+libtool
+config.h
